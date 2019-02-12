@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- Lingua do seu site ou sistema -->
+<html lang="en">
+<head>
+  <!-- Define o charset do seu site ou sistema -->
+  <meta charset="UTF-8">
+  <!-- Prepara o seu site ou sistema para os diferentes dispositivos existentes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Esta meta é exclusiva para Internet Explorer (introduzido no IE8), ela pode configurar a página para ser renderizada como em outra versão do Internet Explorer. -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Title pagina ou sistema -->
+  <title>Teste 1</title>
+
+  <style>
+    table,th,td {
+      border: 1px solid #000;
+    }
+    th,td {
+      padding: 7px;
+    }
+    .nome {
+      background-color:red;
+    }
+    .email {
+      background-color:green;
+    }
+    .telefone {
+      background-color:blue;
+    }
+    .cargo {
+      background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Teste h1</h1>
+  <h2>Teste h2</h2>
+  <h3>Teste h3</h3>
+  <h4>Teste h4</h4>
+  <h5>Teste h5</h5>
+  <h6>Teste h6</h6>
+
+  <p>Paragrafo: Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+  <h2>Listas</h2>
+
+  <h3>Listas não ordenadas</h3>
+  <ul>
+    <li>Moto</li>
+    <li>Carro</li>
+    <li>Bicicleta</li>
+  </ul>
+
+  <h3>Listas ordenadas</h3>
+  <ol>
+    <li>Moto</li>
+    <li>Carro</li>
+    <li>Bicicleta</li>
+  </ol>
+  <hr>
+  <ol type="A">
+    <li>Moto</li>
+    <li>Carro</li>
+    <li>Bicicleta</li>
+  </ol>
+  <hr>
+  <ol type="a">
+    <li>Moto</li>
+    <li>Carro</li>
+    <li>Bicicleta</li>
+  </ol>
+
+  <h3>Listas de descrição</h3>
+  <dl>
+    <dt>Moto</dt>
+    <dd>Mussum Ipsum, cacilds vidis litro abertisa.</dd>
+    <dt>Carro</dt>
+    <dd>Mussum Ipsum, cacilds vidis litro abertisa.</dd>
+    <dt>Bicicleta</dt>
+    <dd>Mussum Ipsum, cacilds vidis litro abertisa.</dd>
+  </dl>
+
+  <hr>
+
+  <h2>Images</h2>
+  <img src="https://blog.edx.org/wp-content/uploads/2015/09/null-1.jpg" title="Curso Html" alt="HTML5" width="600" height="400">
+  <br>
+
+  <a href="https://www.google.com.br" target="_blank">Google</a>
+
+  <hr>
+
+  <h2>Table</h2>
+
+  <table>
+    <caption>Cadastro de Clientes</caption>
+    <colgroup>
+      <col class="nome">
+      <col class="email">
+      <col class="telefone">
+      <col class="cargo">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Nome:</th>
+        <th>Email:</th>
+        <th>Telefone:</th>
+        <th>Cargo:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jorge</td>
+        <td>jorge@mail.com</td>
+        <td>67-9999988888</td>
+        <td rowspan="3">TI</td>
+      </tr>
+      <tr>
+        <td>Hugo</td>
+        <td>huguinho@mail.com</td>
+        <td>67-9999988888</td>
+      </tr>
+      <tr>
+        <td>Luiz</td>
+        <td>luizinho@mail.com</td>
+        <td>67-9999988888</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total: 3</td>
+      </tr>
+    </tfoot>
+  </table>
+<br><br>
+
+<select name="veiculos" id="">
+  <optgroup label="Carros">
+    <option value="camaro">Camaro</option>
+    <option value="camaro">Fusca</option>
+    <option value="camaro">Ferrari</option>
+  </optgroup>
+  <optgroup label="Motos">
+    <option value="camaro">CB-1000</option>
+    <option value="camaro">POP-100</option>
+    <option value="camaro">VT-300</option>
+  </optgroup>
+</select>
+<br>
+<hr>
+</body>
+</html>

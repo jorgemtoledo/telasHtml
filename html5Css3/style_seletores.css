@@ -1,0 +1,134 @@
+/* Seletores */
+  /* Seletor universal */
+  * {
+    margin: 0;
+    padding: 0;
+    color: red;
+  }
+
+  /* Box-sizing é o seletor universal que mantem o tamanho real do elemento na hora da utilização do padding */
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Seletor tag */
+  h1{
+    color:blue;
+    font-size: 60px;
+    font-family: tahoma;
+  }
+
+  /* Seletor atributo type ou name */
+  input[type='text']{
+    width: 200px;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+  }
+
+  input[type='email']{
+    width: 200px;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+  }
+
+  input[type='submit']{
+    width: 50px;
+    background-color: green;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  /* Seletor classe */
+  .texto-principal {
+    color: yellow;
+    text-align: center;
+  }
+  .fundo-principal {
+    background-color: green;
+    padding: 20px;
+  }
+
+  /* Seletor id */
+  #conteudo {
+    background-color: blue;
+    padding: 20px;
+    color:green;
+  }
+
+
+/* Paddin and margin */
+  /* Paddin */
+  #exemplo {
+    background: green;
+    color: #fff;
+    width: 500px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+
+  /* Margin */
+  #exemplo2 {
+    background: red;
+    color: #fff;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  /* Edit Texts */
+  p {
+    text-indent: 20px;
+    color:red;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  h3 {
+    text-align: right;
+    text-decoration: overline;
+  }
+
+  h4 {
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  /* Conteudo box */
+  #box_teste {
+    background: red;
+    width: 300px;
+    color: #ccc;
+    padding: 20px;
+  }
+
+  /* Float */
+  #base {
+    background-color: green;
+    width: 600px;
+    height: 600px;
+  }
+
+  #esquerda {
+    background: red;
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+
+  #direita {
+    background: blue;
+    width: 300px;
+    height: 300px;
+    float: right;
+  }
