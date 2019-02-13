@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MyTube</title>
+  <link rel="icon" href="images/icon.png">        
+  <!-- GOOGLE FONTS AND ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <!-- Sidebar menu -->
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar">
+      <a href="#" id="menu-close" class="pull-right toggle"><img src="images/X.png"></a>
+      <ul>
+        <li class="title">Menu</li>
+        <li><a href="#"><i class="fa fa-eye"></i> What to watch</a></li>
+        <li><a href="#"><i class="fa fa-user"></i> My Channel</a></li>
+        <li><a href="#"><i class="fa fa-clock-o"></i> History</a></li>
+        <li><a href="#"><i class="fa fa-repeat"></i> Watch Later</a></li>
+      </ul>
+      <ul id="playlist">
+        <li class="title">Playlists</li>
+        <li><a href="#"><i class="fa fa-headphones"></i> Best of David Guetta <p>David Guetta</p></a></li>
+        <li><a href="#"><i class="fa fa-film"></i> Favourite Videos <p>Check your favourite videos</p></a></li>
+        <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Liked Videos <p>Reach all the videos you like</p></a></li>
+      </ul>
+      <ul id="subs">
+        <li class="title">Subscriptions</li>
+        <li><a href="#"><img src="images/music.png"> Musics</a></li>
+        <li><a href="#"><img src="images/sports.png"> Sports</a></li>
+        <li><a href="#"><img src="images/games.png"> Games</a></li>
+      </ul>
+    </ul> <!-- End Sidebar -->
+  </nav> <!-- End Sidebar-wrapper -->
+
+  <!-- Header -->  
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          
+          <div class="col-md-2">
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <a href="#" id="menu-toggle">
+              <img src="images/menu.png">
+            </a>
+          </div> <!-- End Logo & Menu-Toggle -->  
+          <div class="col-md-5">
+            <form><input placeholder="Type to search..." type="text"></form>
+          </div><!-- End Search-Bar -->
+  
+          <div class="col-md-5">
+            <ul id="user-info">
+              <li><a href="#" class="button">Upload</a></li>
+              <li>
+                <ul class="notifications">
+                  <li><i class="fa fa-envelope"></i><span>1</span></li>
+                  <li><i class="fa fa-bell"></i><span>3</span></li>
+                </ul>
+              </li>
+              <li>
+                <img src="images/prof.png">
+                <div>
+                  <p class="username">Jorge Toledo</p>
+                  <p>9 Subscribers</p>
+                  <a href="#">Log out</a>
+                </div>
+              </li>
+            </ul> <!-- End Ul -->
+          </div> <!-- End User Information -->  
+        </div> <!-- End Row -->
+      </div> <!-- End Container-Fluid -->
+    </header> <!-- End Header -->  
+    <hr>  
+    <div class="container-fluid">
+      <div class="row">  
+        <ul class="tab">
+          <li class="active">Home</li>
+          <li>Trending</li>
+          <li>Subscriptions</li>
+        </ul> <!-- End Tabs -->  
+        <hr>  
+        <div class="main-videos">
+          <div class="col-md-4 video">  
+            <div class="area">
+              <div class="mask">  
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->  
+              </div> <!-- End Mask / Hover -->  
+              <img src="images/video.png" alt="video" class="img-responsive">
+              <span class="duration">44:03</span>  
+            </div> <!-- End Area -->  
+            <h2>West Super Bowl 2015</h2>
+            <p><span>9 Days Ago</span> By <a href="#">WestSuperBowl</a> - 10 123 123 Views</p>            
+          </div> <!-- End Col-md-4 -->  
+          <div class="col-md-4">  
+            <div class="area">
+              <div class="mask">  
+                <div class="vertical-align">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Play Now</p>
+                </div> <!-- End Vertical Align -->  
+              </div> <!-- End Mask / Hover -->  
+              <img src="images/video2.png" alt="video" class="img-responsive">
+              <span class="duration">44:03</span>              
+            </div> <!-- End Area -->  
+            <h2>Daft Punk - Get Lucky</h2>
+            <p><span>6 Days Ago</span> By <a href="#">DaftPunkVEVO</a> - 83 238 234 Views</p>            
+          </div> <!-- End Col-md-4 -->  
+          <ul class="mini">
+            <li class="col-md-2 video mini">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/video3.png" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Shakira - Waka Waka</h4>
+              <p><span>2 Weeks Ago</span> By <a href="#">ShakiraVEVO</a></p>
+              <p class="views">21 938 743</p>
+            </li>
+            <li class="col-md-2 video mini">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/video4.png" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Nike Air Mag Replicas</h4>
+              <p><span>2 Weeks Ago</span> By <a href="#">NikeShoes</a></p>
+              <p class="views">21 938 743</p>
+            </li>
+            <li class="col-md-2 video mini">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+               </div> <!-- End Mask / Hover -->  
+                <img src="images/video5.png" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Ibrahimović Risks Every...</h4>
+              <p><span>2 Weeks Ago</span> By <a href="#">NikeFootball</a></p>
+              <p class="views">21 938 743</p>
+            </li>
+            <li class="col-md-2 video mini">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/video6.png" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Rihanna Interview</h4>
+              <p><span>2 Weeks Ago</span> By <a href="#">RihannaVEVO</a></p>
+              <p class="views">21 938 743</p>
+            </li>
+          </ul>  
+        </div> <!-- End Main Videos -->  
+      </div> <!-- End Row -->
+    </div> <!-- End Container-Fluid -->  
+    <hr>  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="single-channel">        
+          <div class="col-md-3 channel-bio">  
+            <div class="channel-name"><img src="images/music.png"> Musics</div>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
+            <a href="#" class="button">More Videos</a>  
+          </div><!-- End Channel-Bio -->  
+          <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/999.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->    
+                <img src="images/912.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/913.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+        </div> <!-- End Single Channel -->
+      </div> <!-- End Row -->
+    </div> <!-- End Container-Fluid -->  
+    <hr>  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="single-channel">        
+          <div class="col-md-3 channel-bio">  
+            <div class="channel-name"><img src="images/sports.png"> Sports</div>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
+            <a href="#" class="button">More Videos</a>  
+          </div><!-- End Channel-Bio -->  
+          <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/914.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/915.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/916.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+        </div> <!-- End Single Channel -->
+      </div> <!-- End Row -->
+    </div> <!-- End Container-Fluid -->  
+    <hr>  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="single-channel">        
+          <div class="col-md-3 channel-bio">  
+            <div class="channel-name"><img src="images/games.png"> Games</div>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at risus molestie, porttitor sapien sed, hendrerit mauris. Nam et turpis sed lectus venenatis tristique sed scelerisque nisl. </p>
+            <a href="#" class="button">More Videos</a>  
+          </div><!-- End Channel-Bio -->  
+          <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/917.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/918.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+           <div class="col-md-3 video">
+              <div class="area">
+                <div class="mask">  
+                  <div class="vertical-align">
+                    <i class="fa fa-play-circle"></i>
+                    <p>Play Now</p>
+                  </div> <!-- End Vertical Align -->  
+                </div> <!-- End Mask / Hover -->  
+                <img src="images/921.jpg" alt="video" class="img-responsive">
+                <span class="duration">4:03</span>  
+              </div> <!-- End Area -->  
+              <h4>Lorem ipsum Lorem ipsum</h4>
+              <p><span>3 Days Ago</span> By <a href="#">Lorem</a></p>
+              <p class="views">429 384 Views</p>          
+          </div> <!-- End Video -->  
+        </div> <!-- End Single Channel -->
+      </div> <!-- End Row -->
+    </div> <!-- End Container-Fluid -->  
+    <hr>  
+    <footer>      
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Press & Blog</a></li>
+        <li><a href="#">Copyrights</a></li>
+        <li><a href="#">Creators & Partners</a></li>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Developers</a></li>
+      </ul>
+  
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Policy & Safety</a></li>
+        <li><a href="#">Send Feedback</a></li>
+        <li><a href="#">Try Something New</a></li>
+      </ul>  
+      <h4>Copyright &copy; 2019 MyTube Inc.</h4>  
+    </footer> <!-- End Footer -->
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
