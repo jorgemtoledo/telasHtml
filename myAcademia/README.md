@@ -11,6 +11,8 @@ Layout para página de Academia feito com HTML5, CSS3, Materialize e Jquery
   <li>Jquery</li>  
 </ul>
 
+<h3>Treinamento do Site NodeStudio</h3>
+:computer: <a href="https://www.nodestudio.com.br">NodeStudio</a> 
 
 # Screenshot 
 
