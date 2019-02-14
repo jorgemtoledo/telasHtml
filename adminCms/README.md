@@ -19,4 +19,20 @@ Layout para página de Dashboard AdminCMS feito com HTML5, CSS3, Bootstrap 3.3.7
 <br><br>
 ![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img01.png)
 
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img02.png)
 
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img03.png)
+
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img04.png)
+
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img05png)
+
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img06.png)
+
+<br>
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/adminCms/img07.png)
