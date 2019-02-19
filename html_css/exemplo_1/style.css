@@ -1,0 +1,88 @@
+/* Elemento padrão no site */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.row div {
+  background: rgba(21, 211, 236, 0.877);
+  height: 80px;
+  float: left;
+}
+
+/* Linha1 */
+.linha1 .coluna {
+  width: 100%;
+}
+
+.linha1 .coluna p {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Linha2, dividir as colunas em 48% e depois aplicar o pseudo css (last-child)*/
+.linha2 .coluna {
+  width: 48%;
+}
+/* Pseudo css da linha2 */
+.linha2 .coluna:last-child {
+  float: right;
+}
+.linha2 .coluna p {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Linha3 */
+.linha3 .coluna {
+  width: 30.66%;
+  margin-right: 4%;
+}
+
+/* Pseudo css da linha3, aqui vai zerar o margin da ultijma coluna */
+.linha3 .coluna:last-child {
+  margin-right: 0;
+}
+
+.linha3 .coluna p {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Linha4 */
+.linha4 .coluna {
+  width: 22%;
+  margin-right: 4%;
+}
+
+/* Pseudo css da 4, aqui vai zerar o margin da ultijma coluna */
+.linha4 .coluna:last-child {
+  margin-right: 0;
+}
+
+.linha4 .coluna p {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Linha5 */
+.linha5 .coluna {
+  width: 16.8%;
+  margin-right: 4%;
+}
+
+/* Pseudo css da 5, aqui vai zerar o margin da ultijma coluna */
+.linha5 .coluna:last-child {
+  margin-right: 0;
+}
+
+.linha5 .coluna p {
+  text-align: center;
+  padding: 30px;
+}

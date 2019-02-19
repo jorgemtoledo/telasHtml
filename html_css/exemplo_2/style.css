@@ -1,0 +1,175 @@
+/* Elemento padrão no site, reset*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #959595;
+}
+
+a {
+  text-decoration: none;
+  color: #31bcd4;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2 {
+  color: #0d859b;
+}
+
+a:hover {
+  color: #f0481d;
+}
+
+/* Geral */
+.row {
+  width: 100%;
+  float: left;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo h1 a {
+  color: #959595;
+}
+
+.header-logo h1 a span.html {
+  color: #31bcd4;
+}
+
+.header-logo h1 a span.css {
+  color: #f0481d;
+}
+
+.header-menu {
+  float: right;
+  padding: 9px 0;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Bem vindo */
+.bem-vindo {
+  background: #31bcd4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.bem-vindo .content {
+  width: 620px;
+}
+
+.bem-vindo .content h1 {
+  color: #ffffff;
+}
+
+/* Main */
+.main {
+  padding: 30px 0;
+}
+
+.main-menu {
+  float: left;
+  width: 160px;
+  font-size: 18px;
+}
+
+.main-menu h1{
+  font-size: 22px;
+}
+
+.main-menu ul li {
+  margin-top: 22px;
+}
+
+/* Conteudo */
+.main-conteudo {
+  float: right;
+  width: 840px;
+}
+
+.main-conteudo h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.main-conteudo h1 a {
+  color: #31bcd4;
+}
+
+.main-conteudo p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.main-conteudo p a {
+  color: #959595;
+}
+
+.main-conteudo h1 a:hover, .main-conteudo p a:hover {
+  text-decoration: underline;
+}
+
+/* Ultimos artigos */
+.artigos {
+  background: #54cde2;
+  padding: 30px 0;
+}
+
+.artigos-title {
+  font-size: 30px;
+  color: #0d859b;
+  margin: 0 0 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0d859b;
+}
+
+.artigos-coluna {
+  float: left;
+  text-align: justify;
+  width: 30.66%;
+}
+
+.artigos-coluna:nth-of-type(2) {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.artigos-coluna h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.artigos-coluna a {
+  color: #0d859b;
+}
+
+.artigos-coluna a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
