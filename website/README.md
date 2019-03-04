@@ -13,10 +13,10 @@ Layout para página WebSite feito com HTML5, CSS3.
 # Screenshot
 
 <br><br>
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/img01.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/01.png)
 
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/img02.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/02.png)
 
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/img03.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/03.png)
 
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/img04.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/website/04.png)
