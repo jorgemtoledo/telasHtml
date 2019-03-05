@@ -23,6 +23,7 @@ body {
 .user-box img {
 	border-radius: 60%;
 	width: 250px;
+	height: 260px;
 	border: 7px solid #702020;
 }
 
