@@ -1,4 +1,4 @@
-# Projeto BikeStore
+# Projeto Layout Carrinho de Compras
 Layout de carrinho de compras feito com HTML5, CSS3
 
 # Estrutura do Projeto
