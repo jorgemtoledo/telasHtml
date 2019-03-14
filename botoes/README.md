@@ -1,4 +1,4 @@
-# Projeto Efetios Botões em CSS3
+# Projeto Efeitos Botões em CSS3
 Efeitos Botões  CSS3
 
 # Estrutura do Projeto
