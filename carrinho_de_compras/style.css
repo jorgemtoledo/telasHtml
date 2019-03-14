@@ -116,7 +116,7 @@ body {
 
 .cart-container header {
 	color: #fff;
-	background-color: #006cb5;
+	background-color: #c54141;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
@@ -139,7 +139,7 @@ body {
 	color: #fff;
 	font-size: 1em;
 	padding: 10px 15px;
-	background-color: #006cb5;
+	background-color: #c54141;
 }
 
 .cart-container footer .totals {
