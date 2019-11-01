@@ -1,0 +1,14 @@
+div {
+  background-color: #ccc;
+  border: 1px solid #000;
+  min-height: 100px;
+}
+
+#rowContent {
+  min-width: 400px;
+}
+
+.flex-row {
+  /* 1 quanto ele vai crescer referente aos outros elementos, 0 refere quanto o elemento vai diminuir, auto a largura padrao do elemento  */
+  flex: 1 0 auto;
+}

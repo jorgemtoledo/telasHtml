@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Layout Exemplo - Flex</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Link: https://getbootstrap.com/docs/4.0/utilities/flex/ -->
+
+    <div class="row justify-content-between">
+      <div class="col-3">
+        Col - 1
+      </div>
+      <div class="col-6">
+        Col - 2
+      </div>
+    </div>
+
+    <div class="row" id="rowContent">
+      <div class="col-9 d-flex">
+        <!-- Criando divs flex-column para alinhar verticalmente, alinhar horizontal flex-row   -->
+        <div class="d-flex flex-column w-100">
+          <div>Primeiro</div>
+          <div class="flex-row">Segundo</div>
+          <div>Terceiro</div>
+        </div>
+      </div>
+      <div class="col-3 d-flex">
+        <div class="d-flex flex-column w-100">
+          <div>1</div>
+          <div class="flex-row">2</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        Rodapé
+      </div>
+    </div>
+
+    
+
+  </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
