@@ -12,10 +12,10 @@
 # Screenshot
 
 <br>
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedcard/01.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedCard/01.png)
 <br>
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedcard/02.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedCard/02.png)
 <br>
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedcard/03.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedCard/03.png)
 <br>
-![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedcard/04.png)
+![ScreenShot](https://github.com/jorgemtoledo/telasHtml/blob/master/animatedCard/04.png)
